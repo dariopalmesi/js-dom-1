@@ -10,5 +10,5 @@ const imageOff = document.getElementById('off')
 // 2. collega un event listener al pulsante
 
 buttonEl.addEventListener('click', ()=> {
-    
+    imageOff.setAttribute('imageOff', 'imageOn')
 })
