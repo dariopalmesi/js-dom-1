@@ -4,11 +4,10 @@
 // 1. Seleziono gli elementi della DOM
 
 const buttonEl = document.getElementById('button')
-const imageOn = document.getElementById('on')
 const imageOff = document.getElementById('off')
 
 // 2. collega un event listener al pulsante
 
 buttonEl.addEventListener('click', ()=> {
-    imageOff.setAttribute('imageOff', 'imageOn')
+    imageOff.setAttribute('src', './img/yellow_lamp.png')
 })
