@@ -4,11 +4,11 @@
 // 1. Seleziono gli elementi della DOM
 
 const buttonEl = document.getElementById('button')
-const imageEl = document.querySelector('.image')
-
+const imageOn = document.getElementById('on')
+const imageOff = document.getElementById('off')
 
 // 2. collega un event listener al pulsante
 
 buttonEl.addEventListener('click', ()=> {
-    imageEl.classList.add('.light')
+    
 })
